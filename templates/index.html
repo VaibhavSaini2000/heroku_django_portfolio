@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Saini</title>
+    <link rel="stylesheet" href="{%static 'assets/css/home_screen_view.css'%}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="home_first">
+        <div class="container">
+            <div class="header">
+                <div class="explorin_logo">
+                    <a href="http://explorin.io" target="_blank">Explorin</a>
+                </div>
+            </div>
+            <div class='console-container'>
+                <div class='console-underscore-wrapper'>
+                    <span id='text'></span>
+                    <div class='console-underscore' id='console'>
+                        &#95;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home_name">
+        <div class="first_heading">
+            <div class="first_heading_content">
+                <h1 class="ml7">
+                    <span class="text-wrapper">
+                      <span class="letters">
+                        Hi, I'm Vaibhav, web developer.
+                      </span>
+                    </span>
+                </h1>
+            </div>
+            <div class="charwrapper">
+                <div class="first_heading_char">
+                    V
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home_second">
+        <div class="about">
+            <div class="aboutheading">
+                Something about myself.
+            </div>
+            <div class="aboutcontent">
+                I am a third year UG at IIT-KGP , I joined Explorin in November-2020 , I guess it was the only good thing that happened to me in 2020 :p
+            </div>
+        </div>
+    </div>
+    <div class="home_third">
+        <div class="projects">
+            <div class="projectsheading">
+                Time for my projects
+            </div>
+            <div class="projectscontent">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'explorinwebsite')" id="defaultOpen">Explorin Website</button>
+                    <button class="tablinks" onclick="openCity(event, 'instaclone')">Instagram Clone</button>
+                    <button class="tablinks" onclick="openCity(event, 'pollsapp')">Polls App</button>
+                </div>
+
+                <div class="tabcontentwrapper">
+                <div id="explorinwebsite" class="tabcontent">
+                    <div class="tabcontentheading">Explorin MCEP Website</div>
+                    <div>Created a ReactJS web application. I was lucky to have Shlok by my side.</div> <br/><a href="http://explorin.io" target="_blank">Link</a>
+                </div>
+
+                <div id="instaclone" class="tabcontent">
+                    <div  class="tabcontentheading">Instagram Clone</div>
+                    <div>Created a clone of Instagram App using Django with basic functionalities.</div> <br/><a href="https://drive.google.com/file/d/1ttG03gDDUSL8RfZsoEbEvFGQAwYF_0C-/view?usp=sharing" target="_blank">Link</a> 
+                </div>
+
+                <div id="pollsapp" class="tabcontent">
+                    <div class="tabcontentheading">Polls App</div>
+                    <div>Created a basic polls app using AJAX and PHP.</div> <br/><a href="https://drive.google.com/file/d/1KOmNxkV525nf5nPmJioxVV6bENETHNwK/view?usp=sharing" target="_blank">Link</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_content">
+            <div class="footerheading">
+                Stalk me more here :
+            </div>
+            <div class="sociallinks">
+                <a href="https://github.com/VaibhavSaini2000" target="_blank" class="fa fa-github fa-fw fa-2x"></a>
+                <a href="https://www.linkedin.com/in/vaibhav-saini/" target="_blank" class="fa fa-linkedin fa-fw fa-2x"></a>
+                <a href="https://www.facebook.com/vaibh.saini/" target="_blank" class="fa fa-facebook fa-2x"></a>
+                <a href="https://www.instagram.com/_._.vvs._._/" target="_blank" class="fa fa-instagram fa-2x"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="{%static 'assets/js/home_screen_view.js'%}"></script>
+</body>
+</html>

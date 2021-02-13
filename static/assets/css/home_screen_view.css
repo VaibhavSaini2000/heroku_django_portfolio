@@ -1,0 +1,577 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home_first {
+    background-image: linear-gradient(90deg, rgba(3, 169, 244, 0.5), rgba(255, 193, 7, 0.5));
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.header {
+    width:90%;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.explorin_logo {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3vw;
+    line-height: 2vw;
+    text-align: left;
+    width: 100%;
+}
+
+.explorin_logo a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.home_name {
+    background-image: linear-gradient(90deg, #77a1d3, #79cbca,#e684ae);
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.first_heading {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.first_heading_content {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    margin-top: 1.7vw;
+    margin-bottom: 1.7vw;
+}
+
+.first_heading_char {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35vw;
+    line-height: 3vw;
+    padding-left: 5.15vw;
+    text-align: left;
+    margin-top: 3.4vw;
+    transform: rotate(-45deg);
+}
+
+.ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 2.2vw;
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 2vw;
+  }
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-family:Khula;
+  font-size:5vw;
+  text-align:center;
+  height:90vh;
+  width: 90%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  color:white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.console-underscore-wrapper {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+.home_second {
+    background-image: linear-gradient(90deg, #b993d6, #8ca6db);
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    width:80%;
+    height: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.aboutheading {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5vw;
+    line-height: 7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    height: fit-content;
+    width:45%;
+}
+
+.aboutcontent {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    height: fit-content;
+    width:45%;
+}
+
+.home_third {
+    background-image: linear-gradient(90deg, #24c6dc, #514a9d);
+    width: 100%;
+    height: 100vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.projects {
+    width:80%;
+    height: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.projectsheading {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5vw;
+    line-height: 6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    height: fit-content;
+    width:45%;
+}
+
+.projectscontent {
+    color:#fff;
+    font-style: normal;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    text-align: left;
+    height: 60%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-image: linear-gradient(90deg, #9796f0, #fbc7d4);
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: 3vw;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.6vw;
+    padding-top: 5%;
+    padding-top: 5%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(235, 140, 198);
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: rgb(134, 127, 235);
+  }
+
+  .tabcontentwrapper {
+      height: 100%;
+      width: 70%;
+    border: 1px solid #ccc;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    
+    width: 70%;
+    border-left: none;
+    height: 20vw;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-weight: 900;
+  }
+  
+  .tabcontentheading {
+    font-size: 2vw;
+    line-height: 2.5vw;
+    font-weight: 900;
+    text-decoration: underline;
+    padding-bottom: 2vw;
+}
+ 
+ .footer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90deg, #005aa7, #fffde4);
+    
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ .footer_content {
+    padding-top: 5%;
+    padding-right: 5%; 
+    padding-left: 5%;
+    padding-bottom: 5%;
+    width:90%;
+    height: 30%;  
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+ }
+
+ .footerheading {
+    color:#fff;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.2vw;
+    line-height: 3vw;
+    width:90%;
+    height: 30%;  
+ }
+
+ .fa {
+     color: #fff;
+    size: 8vw;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    .fa-github:hover {
+        color: rgb(105, 54, 54);
+    }
+
+    .fa-linkedin:hover {
+        color: rgb(0, 38, 252);
+    }
+
+    .fa-facebook:hover {
+        color: rgb(86, 106, 221);
+    }
+
+    .fa-instagram:hover {
+        color:rgb(209, 66, 121);
+    }
+
+.sociallinks {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+  @media screen and (max-width:600px){
+    .first_heading {
+        display: flex;
+        flex-direction: column;
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .first_heading_content {
+        width: 100%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .first_heading_char {
+        width: 100%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .console-container {
+        font-family:Khula;
+        font-size:10vw;
+        text-align:center;
+        height:90vh;
+        width: 90%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-self: center;
+        color:white;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+    .ml7 {
+        position: relative;
+        font-weight: 900;
+        font-size: 10vw;
+      }
+
+      .ml7 .letter {
+        line-height: 14vw;
+      }
+
+      .charwrapper {
+        text-align: center;
+      }
+
+      .about {
+        width:100%;
+        height: fit-content;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+      .aboutheading {
+        color:#fff;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 10vw;
+        line-height: 20vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: center;
+        height: fit-content;
+        width:90%;
+    }
+
+    .aboutcontent {
+        color:#fff;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 5vw;
+        line-height: 8vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: center;
+        height: fit-content;
+        width:80%;
+        display: flex;
+        flex-direction: row;
+    }
+
+      .projects {
+        width:100%;
+        height: fit-content;
+        padding-left: 0.1%;
+        padding-right: 0.1%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .projectsheading {
+        color:#fff;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 10vw;
+        line-height: 20vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: center;
+        height: fit-content;
+        width:90%;
+    }
+    
+    .projectscontent {
+        color:#fff;
+        font-style: normal;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        height: 70vw;
+        width:90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tab {
+        float: left;
+        border: 1px solid #ccc;
+        background-image: linear-gradient(90deg, #9796f0, #fbc7d4);
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      
+      /* Style the buttons inside the tab */
+      .tab button {
+        background-color: inherit;
+        color: #fff;
+        font-weight: 900;
+        font-size: 3.5vw;
+        line-height: 6vw;
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        padding-top: 5%;
+      }
+
+      .tabcontentwrapper {
+        border: 1px solid #ccc;
+        height: 100%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .tabcontent {
+        float: left;
+        width: 90%;
+        border-left: none;
+        height: 100%;
+        font-size: 4vw;
+        line-height: 7vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-weight: 600;
+      }
+
+      .tabcontentheading {
+          font-size: 5vw;
+          line-height: 7vw;
+          font-weight: 900;
+          text-decoration: underline;
+          padding-bottom: 2vw;
+      }
+      
+      .explorin_logo {
+        font-weight: 900;
+        font-size: 7vw;
+        line-height: 10vw;
+    }
+  }
